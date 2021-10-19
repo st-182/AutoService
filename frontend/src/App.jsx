@@ -1,13 +1,10 @@
-import Newsletter from "./components/Newsletter";
 import GlobalStyle from "./Global.style";
 function App() {
   return (
     <>
       <GlobalStyle />
       <header className=""></header>
-      <main>
-        <Newsletter />
-      </main>
+      <main></main>
       <footer></footer>
     </>
   );
