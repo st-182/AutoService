@@ -2,9 +2,9 @@ import React from "react";
 
 const AboutUsScreen = () => {
   return (
-    <div>
+    <section>
       <h1>About</h1>
-    </div>
+    </section>
   );
 };
 

@@ -2,9 +2,9 @@ import React from "react";
 
 const BlogScreens = () => {
   return (
-    <div>
+    <section>
       <h1>BlogScreens</h1>
-    </div>
+    </section>
   );
 };
 

@@ -2,9 +2,9 @@ import React from "react";
 
 const ContactsScreen = () => {
   return (
-    <div>
+    <section>
       <h1>Contacts</h1>
-    </div>
+    </section>
   );
 };
 

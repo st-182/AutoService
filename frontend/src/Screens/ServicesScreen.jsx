@@ -2,9 +2,9 @@ import React from "react";
 
 const ServicesScreen = () => {
   return (
-    <div>
+    <section>
       <h1>Services</h1>
-    </div>
+    </section>
   );
 };
 
