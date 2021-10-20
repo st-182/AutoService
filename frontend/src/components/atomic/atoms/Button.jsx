@@ -2,9 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 const StyledButton = styled.button`
-  border-radius: 5px;
-  color: ${({ primary }) => (primary ? `blue` : `white`)};
-  background: ${({ primary }) => (primary ? `blue` : `white`)};
+  border-radius: 10px;
+  padding: 10px;
+  color: ${({ primary }) => (primary ? `#FF6433` : `white`)};
+  background: ${({ primary }) => (!primary ? `#FF6433` : `white`)};
 
   border: 1px solid white;
 `;
