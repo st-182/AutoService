@@ -8,9 +8,9 @@ const StyledButton = styled.button`
 
   border: 1px solid white;
 `;
-const Button = ({ text, action, primary }) => {
+const Button = ({ text, action, primary, className }) => {
   return (
-    <StyledButton primary={primary} onClick={action}>
+    <StyledButton primary={primary} onClick={action} className={className}>
       {text}
     </StyledButton>
   );
