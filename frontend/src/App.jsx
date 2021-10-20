@@ -23,8 +23,8 @@ function App() {
             <Route to="/contacts" component={ContactsScreen} />
           </Switch>
         </main>
+        <Footer />
       </Router>
-      <Footer />
     </>
   );
 }
