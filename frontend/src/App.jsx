@@ -6,6 +6,7 @@ import BlogScreens from "./Screens/BlogScreens";
 import ServicesScreen from "./Screens/ServicesScreen";
 import AboutUsScreen from "./Screens/AboutUsScreen";
 import Header from "./components/atomic/molecules/Header/Header";
+import Footer from "./components/atomic/molecules/Footer/Footer";
 function App() {
   return (
     <>
@@ -23,7 +24,7 @@ function App() {
           </Switch>
         </main>
       </Router>
-      <footer></footer>
+      <Footer />
     </>
   );
 }
