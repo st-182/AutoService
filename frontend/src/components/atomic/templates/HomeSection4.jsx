@@ -49,6 +49,13 @@ const StyledDiv = styled.div`
       width: 30px;
     }
   }
+  div:nth-of-type(3) {
+    background-color: #ff6433;
+    color: white;
+    img {
+      filter: invert(1);
+    }
+  }
 `;
 
 const HomeSection4 = () => {
@@ -57,7 +64,7 @@ const HomeSection4 = () => {
       <Container>
         <div className="flex justify-center items-center flex-col">
           <div className="">
-            <p className="text-gray-400">What we Offer </p>
+            <p className="text-gray-400 text-center">What we Offer </p>
             <h2 className="my-5 font-bold text-4xl">
               We offer full service auto repair & maintenance
             </h2>
